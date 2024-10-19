@@ -1,9 +1,15 @@
 ---
 title: "Lab 4: Childcare Costs in California"
-author: "Your name here!"
+author: "Matteo Saisi"
 format: html
 editor: source
 embed-resources: true
+echo: true
+toc: true
+code-fold: true
+code-tools: true
+warning: false
+message: false
 ---
 
 ## The Data
@@ -18,6 +24,8 @@ The data come to us from [TidyTuesday](https://github.com/rfordatascience/tidytu
 ```{r}
 #| label: setup
 
+library(tidyverse)
+
 ```
 
 ```{r}
@@ -29,6 +37,8 @@ counties <- read_csv('https://raw.githubusercontent.com/rfordatascience/tidytues
 ```
 
 **1. Briefly describe the dataset (~ 4 sentences). What information does it contain?**
+
+
 
 ## California Childcare Costs
 
